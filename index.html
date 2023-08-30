@@ -15,6 +15,23 @@
 </style>
 </head>
 <body>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #<span id="randomColor"></span>;
+    transition: background-color 0.5s ease-in-out;
+  }
+</style>
+</head>
+<body>
 <script>
   function getRandomColor() {
     const letters = '0123456789ABCDEF';
@@ -33,5 +50,7 @@
 
   setRandomBackgroundColor();
 </script>
+</body>
+</html>
 </body>
 </html>
